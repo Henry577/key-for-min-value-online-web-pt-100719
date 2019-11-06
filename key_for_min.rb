@@ -3,15 +3,15 @@
 
 def key_for_min_value(name_hash)
 
-  smallest_key = name_hash[1]
-  smallest_value = name_hash[smallest_key]
+  smallest_yeet = name_hash[1]
+  smallest_jeet = name_hash[smallest_key]
 
-  name_hash.each do |key, value|
+  name_hash.each do |yeet, jeet|
     
-    if value < smallest_value
+    if jeet < smallest_jeet
   
-      smallest_key = key
-      smallest_value = value
+      smallest_yeet = yeet
+      smallest_jeet = jeet
   
     end
     
