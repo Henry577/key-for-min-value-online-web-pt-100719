@@ -17,4 +17,6 @@ def key_for_min_value(name_hash)
     
   end
   
+  return name_hash[smallest_jeet]
+  
 end
