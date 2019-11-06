@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
 
-  smallest_yeet = name_hash[1]
-  smallest_jeet = name_hash[smallest_yeet]
+  smallest_yeet = ""
+  smallest_jeet = 999999999999999999999
 
   name_hash.each do |yeet, jeet|
     
